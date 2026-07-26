@@ -1,2 +1,2 @@
 # Icon-for-FadeIn
-A simplem SVG file for FadeIn on Linux
+A simple SVG file for FadeIn on Linux
