@@ -8,9 +8,9 @@ FadeIn is a powerful and well reputed screenwriting software for Mac, Windows, a
 
 ---
 
-## How to Install
+# How to Install
 
-# GNOME
+## GNOME
 
 1. Open Nautilus file manager and navigate to the Home.
 2. Crtl+H to reveal hidden folders
