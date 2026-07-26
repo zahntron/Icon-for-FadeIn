@@ -14,9 +14,9 @@ FadeIn is a powerful and well reputed screenwriting software for Mac, Windows, a
 
 1. Open Nautilus file manager and navigate to the Home.
 2. Crtl+H to reveal hidden folders
-3. Navigate to .local>share>appplications and open the FadeIn desktop entry: "Fadein.desktop"
-4. Open it in your preferred text editor and locate the line: Icon=/home/excelsior/.local/share/icons/distrobox/fedora.png that is the location of the false icon.
-5. Rename is this to: Icon=/home/excelsior/.local/share/icons/distrobox/fadein-icon.svg
+3. Navigate to .local>share>appplications and open the FadeIn desktop entry: 'Fadein.desktop'
+4. Open it in your preferred text editor and locate the line: 'Icon=/home/excelsior/.local/share/icons/distrobox/fedora.png' that is the location of the false icon.
+5. Rename is this to: 'Icon=/home/excelsior/.local/share/icons/distrobox/fadein-icon.svg'
 6. Locate the path: /.local/share/icons/distrobox and place the icon there.
 
 ---
