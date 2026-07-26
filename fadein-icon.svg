@@ -1,0 +1,41 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1d29"/>
+      <stop offset="55%" stop-color="#14161f"/>
+      <stop offset="100%" stop-color="#0c0d13"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF"/>
+      <stop offset="45%" stop-color="#B15CFF"/>
+      <stop offset="100%" stop-color="#FF5C9E"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#D9D2FF"/>
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowSpot" cx="30%" cy="20%" r="75%">
+      <stop offset="0%" stop-color="#8A6BFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8A6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="roundedSquare">
+      <rect x="8" y="8" width="240" height="240" rx="54"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedSquare)">
+    <rect x="8" y="8" width="240" height="240" fill="url(#bgGrad)"/>
+    <rect x="8" y="8" width="240" height="240" fill="url(#glowSpot)"/>
+    <rect x="8" y="8" width="240" height="120" fill="url(#edgeGlow)"/>
+
+    <path d="M 176 26 L 208 26 L 208 58 Z" fill="#ffffff" opacity="0.05"/>
+
+    <text x="125" y="175" text-anchor="middle" font-family="Times New Roman, serif" font-size="150" font-weight="700" letter-spacing="-2" fill="url(#textGrad)">FI</text>
+
+    <rect x="8.5" y="8.5" width="239" height="239" rx="53.5" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+  </g>
+</svg>
